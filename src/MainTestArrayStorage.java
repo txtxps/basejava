@@ -1,11 +1,11 @@
 import ru.javawebinar.basejava.model.Resume;
-import ru.javawebinar.basejava.storage.ArrayStorage;
+import ru.javawebinar.basejava.storage.AbstractArrayStorage;
 
 /**
  * Test for your com.urise.webapp.storage.ArrayStorage implementation
  */
 public class MainTestArrayStorage {
-    static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
+    static final AbstractArrayStorage ARRAY_STORAGE = new AbstractArrayStorage();
 
     public static void main(String[] args) {
         Resume r1 = new Resume();
